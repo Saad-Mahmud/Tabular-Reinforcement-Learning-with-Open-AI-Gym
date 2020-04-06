@@ -3,7 +3,7 @@ import gym
 from collections import defaultdict
 from tensorboardX import SummaryWriter
 
-class onMC_Agent(object):
+class ES_Agent(object):
 
     def __init__(self, env, maxEpi=100000, gamma = 0.95, epsilon = 0.1, alpha = 0.01):
         self.env = env
@@ -78,5 +78,5 @@ class onMC_Agent(object):
 
 if __name__ == "__main__":
     env = gym.make("FrozenLake-v0").env
-    agent = onMC_Agent(env)
+    agent = ES_Agent(env)
     agent.learn()
