@@ -1,5 +1,5 @@
 # Tabular Reinforcement Learning with Open AI Gym 
-In this reposetory I will upload most of the algorithms discussed in the first part of the "Reinforcement Learning: An Introduction" By R.S. Sutton and A.G. Barto. Here is the list of algorithm you can find here:
+In this reposetory you will find most of the algorithms discussed in the first part of the "Reinforcement Learning: An Introduction" By R.S. Sutton and A.G. Barto. Here is the list:
 1. [Epsilon Greedy Bandit](Part_01_Bandit/Epsilon_Greedy.py)
 2. [Upper Confidence Bound Bandit](Part_01_Bandit/Upper_Conf_Bound.py)
 3. [Gradient Bandit](Part_01_Bandit/Gradient_Bandit.py)
